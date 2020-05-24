@@ -32,10 +32,7 @@ function HeaderComponent(props: IProps) {
         <Grid item xs zeroMinWidth>
           <Typography variant="h4" noWrap className={classes.title}>
             {title}{' '}
-            <Tooltip
-              title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, nobis!"
-              placement="right"
-            >
+            <Tooltip title="Decentralized Pension Fund" placement="right">
               <span>
                 <InfoIcon className={classes.infoIcon} />
               </span>
