@@ -40,7 +40,7 @@ export function ProtocolTermsView({
           )
         }
       />
-      <Metric title="slippage (uncludes additional)" value={`${formattedSlippage}%`} />
+      <Metric title="slippage (includes additional)" value={`${formattedSlippage}%`} />
     </MetricsList>
   );
 }
