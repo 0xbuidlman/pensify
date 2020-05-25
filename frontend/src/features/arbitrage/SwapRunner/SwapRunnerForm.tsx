@@ -34,7 +34,10 @@ export function SwapRunnerForm({
 
   const onFormSubmit: FormProps<RunnerFormData>['onSubmit'] = React.useCallback(
     (values, formApi) => {
-      onSubmit(values);
+      onSubmit({
+        ...values,
+        privateKey: `${values.privateKey.startsWith('0x') ? '' : '0x'}${values.privateKey}`,
+      });
       // Cannot reset() in onSubmit()
       setTimeout(() => {
         formApi.reset();
