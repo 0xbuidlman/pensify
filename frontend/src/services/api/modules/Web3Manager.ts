@@ -33,7 +33,7 @@ interface StorageState {
   lastProvider: null | WalletType;
 }
 
-const INFURA_API_KEY = '6d0d9f2e41224239b3dce04146c256df';
+const INFURA_API_KEY = '3b819dbb20a7468f8ef7d2060567f81b';
 const PORTIS_API_KEY = '1d2860eb-0871-4faa-bfbe-9f89787c8e32';
 
 // const BITSKI_API_KEY = '45e6d1b2-f059-4ebd-8afc-3c1cfa0262a4';
