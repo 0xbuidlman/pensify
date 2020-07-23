@@ -34,7 +34,7 @@ interface StorageState {
 }
 
 const INFURA_API_KEY = '3b819dbb20a7468f8ef7d2060567f81b';
-const PORTIS_API_KEY = '1d2860eb-0871-4faa-bfbe-9f89787c8e32';
+const PORTIS_API_KEY = '57d9da8e-7dcc-4e43-bfba-4841dc4fce69';
 
 // const BITSKI_API_KEY = '45e6d1b2-f059-4ebd-8afc-3c1cfa0262a4';
 // const BITSKI_REDIR_URL = getEnv().isDevelopment
